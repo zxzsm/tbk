@@ -1,0 +1,43 @@
+2020-03-02 16:01:39.294  INFO 19860 --- [main] com.tbk.boot.Application                 : Starting Application on PC-20190429AGQE with PID 19860 (D:\git\Repos\tbk\target\classes started by Administrator in D:\git\Repos\tbk)
+2020-03-02 16:01:39.295  INFO 19860 --- [main] com.tbk.boot.Application                 : No active profile set, falling back to default profiles: default
+2020-03-02 16:01:39.765  INFO 19860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-03-02 16:01:39.771  INFO 19860 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-02 16:01:39.771  INFO 19860 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-02 16:01:39.815  INFO 19860 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-02 16:01:39.815  INFO 19860 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 495 ms
+2020-03-02 16:01:39.909  INFO 19860 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 16:01:40.006  INFO 19860 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-03-02 16:01:40.008  INFO 19860 --- [main] com.tbk.boot.Application                 : Started Application in 0.935 seconds (JVM running for 1.37)
+2020-03-02 16:02:28.672  INFO 19860 --- [http-nio-9090-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1565078855; JESONG_USER_ID=01000000012861827308395213121554; JESONG_AC=0; JESONG_IC=0; JESONG_DC=0; UM_distinctid=16dfb53a0f89d-002936fd6c72d2-67e1b3f-1fa400-16dfb53a0f9107; d783ea20966909ff=0; Himall-DefaultUserName=wangjj; CNZZDATA1278134749=109765136-1571878564-%7C1577425793; PlatVisitCount=eWdoL1NQUnVldnpQcFlFRGYzb2lIVjlId3N2U0k2Qmc2aXprS2JJN2NzMD0=; Hm_lvt_09363a81d51c8c0aa33864505e81a5ec=1583114003; Hm_lpvt_09363a81d51c8c0aa33864505e81a5ec=1583114003; JESONG_VC=206; ASP.NET_SessionId=yponq5i3kbogx04kx1ajqfif; Himall-PlatformManager=VS9CQkNiTkwzb3JzOVVBMWZkbjRUazJOL3hxSUhQUGhiUXBNQUc0ZjNxQ2tEek51R083aVJRQ2I3a2NTS2tIOVRnejBtQ014VmVKckxtUUxWMjA2UFE9PQ==] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-02 16:02:28.677  INFO 19860 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-02 16:02:28.677  INFO 19860 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-02 16:02:28.681  INFO 19860 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2020-03-02 16:02:28.693  INFO 19860 --- [http-nio-9090-exec-1] com.tbk.boot.controller.HelloController  : --------info-------
+2020-03-02 16:02:28.693  WARN 19860 --- [http-nio-9090-exec-1] com.tbk.boot.controller.HelloController  : --------warn-------
+2020-03-02 16:02:28.693 ERROR 19860 --- [http-nio-9090-exec-1] com.tbk.boot.controller.HelloController  : --------error-------
+2020-03-02 16:04:04.014  INFO 19860 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-02 16:04:04.016  INFO 19860 --- [RMI TCP Connection(3)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2020-03-02 16:04:06.392  INFO 7180 --- [main] com.tbk.boot.Application                 : Starting Application on PC-20190429AGQE with PID 7180 (D:\git\Repos\tbk\target\classes started by Administrator in D:\git\Repos\tbk)
+2020-03-02 16:04:06.394 DEBUG 7180 --- [main] com.tbk.boot.Application                 : Running with Spring Boot v2.2.5.RELEASE, Spring v5.2.4.RELEASE
+2020-03-02 16:04:06.394  INFO 7180 --- [main] com.tbk.boot.Application                 : No active profile set, falling back to default profiles: default
+2020-03-02 16:04:06.860  INFO 7180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 9090 (http)
+2020-03-02 16:04:06.866  INFO 7180 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2020-03-02 16:04:06.866  INFO 7180 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.31]
+2020-03-02 16:04:06.907  INFO 7180 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2020-03-02 16:04:06.907  INFO 7180 --- [main] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 489 ms
+2020-03-02 16:04:07.002  INFO 7180 --- [main] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2020-03-02 16:04:07.097  INFO 7180 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 9090 (http) with context path ''
+2020-03-02 16:04:07.099  INFO 7180 --- [main] com.tbk.boot.Application                 : Started Application in 0.921 seconds (JVM running for 1.359)
+2020-03-02 16:04:09.664  INFO 7180 --- [http-nio-9090-exec-1] o.apache.tomcat.util.http.parser.Cookie  : A cookie header was received [1565078855; JESONG_USER_ID=01000000012861827308395213121554; JESONG_AC=0; JESONG_IC=0; JESONG_DC=0; UM_distinctid=16dfb53a0f89d-002936fd6c72d2-67e1b3f-1fa400-16dfb53a0f9107; d783ea20966909ff=0; Himall-DefaultUserName=wangjj; CNZZDATA1278134749=109765136-1571878564-%7C1577425793; PlatVisitCount=eWdoL1NQUnVldnpQcFlFRGYzb2lIVjlId3N2U0k2Qmc2aXprS2JJN2NzMD0=; Hm_lvt_09363a81d51c8c0aa33864505e81a5ec=1583114003; Hm_lpvt_09363a81d51c8c0aa33864505e81a5ec=1583114003; JESONG_VC=206; ASP.NET_SessionId=yponq5i3kbogx04kx1ajqfif; Himall-PlatformManager=VS9CQkNiTkwzb3JzOVVBMWZkbjRUazJOL3hxSUhQUGhiUXBNQUc0ZjNxQ2tEek51R083aVJRQ2I3a2NTS2tIOVRnejBtQ014VmVKckxtUUxWMjA2UFE9PQ==] that contained an invalid cookie. That cookie will be ignored.
+ Note: further occurrences of this error will be logged at DEBUG level.
+2020-03-02 16:04:09.668  INFO 7180 --- [http-nio-9090-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2020-03-02 16:04:09.668  INFO 7180 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2020-03-02 16:04:09.671  INFO 7180 --- [http-nio-9090-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2020-03-02 16:04:09.684 TRACE 7180 --- [http-nio-9090-exec-1] com.tbk.boot.controller.HelloController  : --------trace-------
+2020-03-02 16:04:09.684 DEBUG 7180 --- [http-nio-9090-exec-1] com.tbk.boot.controller.HelloController  : --------debug-------
+2020-03-02 16:04:09.684  INFO 7180 --- [http-nio-9090-exec-1] com.tbk.boot.controller.HelloController  : --------info-------
+2020-03-02 16:04:09.684  WARN 7180 --- [http-nio-9090-exec-1] com.tbk.boot.controller.HelloController  : --------warn-------
+2020-03-02 16:04:09.684 ERROR 7180 --- [http-nio-9090-exec-1] com.tbk.boot.controller.HelloController  : --------error-------
+2020-03-02 16:12:12.727  INFO 7180 --- [RMI TCP Connection(4)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2020-03-02 16:12:12.730  INFO 7180 --- [RMI TCP Connection(4)-127.0.0.1] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
