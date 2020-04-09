@@ -14,6 +14,7 @@ public class HelloController {
 	
 	@GetMapping("/msg")
 	public String msg() {
+		String msg1="12312";
 		return msg; 
 	}
 	
