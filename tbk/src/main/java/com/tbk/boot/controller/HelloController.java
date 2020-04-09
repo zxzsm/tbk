@@ -14,7 +14,7 @@ public class HelloController {
 	
 	@GetMapping("/msg")
 	public String msg() {
-		return msg;
+		return msg; 
 	}
 	
 	private static final Logger logger=LoggerFactory.getLogger(HelloController.class);
